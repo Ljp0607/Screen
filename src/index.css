@@ -1,1 +1,30 @@
 @import "tailwindcss";
+
+@theme {
+ /* 主色调 - 保持与明亮模式一致 */
+  --color-primary: #247BFF;
+  --color-primary-hover: #0967D1;
+  --color-primary-active: #137AEE;
+  --color-primary-text: #FFFFFF;
+
+  /* 语义色 */
+  --color-success: #00FF8A;
+  --color-warning: #FFEA51;
+  --color-error: #FF3B3B;
+  --color-info: #247BFF;
+  --color-text-disabled: #A1AFC5;
+
+  /* 背景色 - 适配大屏深色背景 */
+  --color-container: #031241;
+  --color-elevated: #163679;
+  --color-body: #001529;
+
+  /* 文字色 */
+  --color-text: #FFFFFF;
+  --color-text-secondary: #A1AFC5;
+
+  /* 边框色 */
+  --color-border: #163679;
+  --color-border-hover: #247BFF;
+}
+
